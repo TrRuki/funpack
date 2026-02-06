@@ -1,0 +1,1 @@
+item modify entity @s weapon.mainhand funnyenchants:convert_tnt_autoignite

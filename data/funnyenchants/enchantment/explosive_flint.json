@@ -1,0 +1,19 @@
+{
+    "description": {"translate": "funnyenchants.explosive_flint", "fallback": "Explosive flint"},
+    "supported_items": "flint_and_steel",
+    "primary_items": "flint_and_steel",
+    "weight": 2,
+    "max_level": 1,
+    "min_cost": {
+        "base": 10,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 10,
+    "slots": [
+        "mainhand"
+    ]
+}

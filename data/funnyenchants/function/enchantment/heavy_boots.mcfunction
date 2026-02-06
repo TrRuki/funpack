@@ -1,0 +1,1 @@
+execute unless block ~ ~-1 ~ bedrock unless block ~ ~-1 ~ end_portal_frame run setblock ~ ~-1 ~ air destroy

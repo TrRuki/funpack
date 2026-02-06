@@ -1,0 +1,30 @@
+{
+    "description": {"translate": "funnyenchants.neptune", "fallback": "Neptune"},
+    "supported_items": "#minecraft:enchantable/foot_armor",
+    "weight": 2,
+    "max_level": 1,
+    "min_cost": {
+        "base": 10,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 10,
+    "slots": [
+        "feet"
+    ],
+    "effects": {
+        "location_changed": [{
+            "effect": {
+                "type": "run_function",
+                "function": "funnyenchants:enchantment/neptune"
+            },
+            "requirements": {
+                "condition": "random_chance",
+                "chance": 0.05
+            }
+        }]
+    }
+}

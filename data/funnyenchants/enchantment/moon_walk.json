@@ -1,0 +1,35 @@
+{
+    "description": {"translate": "funnyenchants.moon_walk", "fallback": "Moon walk"},
+    "supported_items": "#minecraft:enchantable/foot_armor",
+    "primary_items": "#minecraft:enchantable/foot_armor",
+    "weight": 2,
+    "max_level": 1,
+    "min_cost": {
+        "base": 10,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 10,
+    "slots": [
+        "feet"
+    ],
+    "effects": {
+        "attributes": [
+            {
+                "attribute": "gravity",
+                "operation": "add_multiplied_total",
+                "amount": -0.8,
+                "id": "minecraft:moon_walk_feet"
+            },
+            {
+                "attribute": "safe_fall_distance",
+                "operation": "add_value",
+                "amount": 1000,
+                "id": "minecraft:moon_walk_feet"
+            }
+        ]
+    }
+}

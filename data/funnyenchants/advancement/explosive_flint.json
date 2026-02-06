@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "flint_and_steel": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "flint_and_steel",
+                            "components": {
+                                "enchantments": {
+                                    "funnyenchants:explosive_flint": 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "funnyenchants:enchantment/explosive_flint"
+    }
+}

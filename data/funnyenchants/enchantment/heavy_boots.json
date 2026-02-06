@@ -1,0 +1,58 @@
+{
+    "description": {"translate": "funnyenchants.heavy_step", "fallback": "Heavy boots"},
+    "supported_items": "#minecraft:enchantable/foot_armor",
+    "weight": 2,
+    "max_level": 1,
+    "min_cost": {
+        "base": 10,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 10,
+    "slots": [
+        "feet"
+    ],
+    "effects": {
+        "location_changed": [{
+            "effect": {
+                "type": "run_function",
+                "function": "funnyenchants:enchantment/heavy_boots"
+            },
+            "requirements": [{
+                "condition": "random_chance",
+                "chance": 1
+            },{
+                "condition": "inverted",
+                "term": {
+                    "condition": "location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#air"
+                        }
+                    }
+                }
+            },{
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "movement": {
+                        "fall_distance": {
+                            "min": 6
+                        }
+                    }
+                }
+            }
+        ]
+        }],
+        "attributes": [{
+            "attribute": "gravity",
+            "operation": "add_value",
+            "amount": 0.04,
+            "id": "minecraft:heavy_boots_feet"
+        }]
+    }
+}
