@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    "goat_horn", "dragon_head", "dragon_breath"
+  ],
+  "result": {
+    "id": "goat_horn",
+    "components": {
+      "instrument": "funpack:dragon_horn"
+    }
+  }
+}

@@ -9,7 +9,7 @@
                             "items": "flint_and_steel",
                             "components": {
                                 "enchantments": {
-                                    "funnyenchants:explosive_flint": 1
+                                    "funpack:explosive_flint": 1
                                 }
                             }
                         }
@@ -19,6 +19,6 @@
         }
     },
     "rewards": {
-        "function": "funnyenchants:enchantment/explosive_flint"
+        "function": "funpack:enchantment/explosive_flint"
     }
 }

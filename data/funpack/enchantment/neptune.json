@@ -1,5 +1,5 @@
 {
-    "description": {"translate": "funnyenchants.neptune", "fallback": "Neptune"},
+    "description": {"translate": "funpack.neptune", "fallback": "Neptune"},
     "supported_items": "#minecraft:enchantable/foot_armor",
     "weight": 2,
     "max_level": 1,
@@ -19,7 +19,7 @@
         "location_changed": [{
             "effect": {
                 "type": "run_function",
-                "function": "funnyenchants:enchantment/neptune"
+                "function": "funpack:enchantment/neptune"
             },
             "requirements": {
                 "condition": "random_chance",

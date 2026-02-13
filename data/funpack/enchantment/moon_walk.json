@@ -1,5 +1,5 @@
 {
-    "description": {"translate": "funnyenchants.moon_walk", "fallback": "Moon walk"},
+    "description": {"translate": "funpack.moon_walk", "fallback": "Moon walk"},
     "supported_items": "#minecraft:enchantable/foot_armor",
     "primary_items": "#minecraft:enchantable/foot_armor",
     "weight": 2,

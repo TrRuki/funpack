@@ -1,9 +1,9 @@
 {
     "values": [
-        "funnyenchants:neptune",
-        "funnyenchants:heavy_boots",
-        "funnyenchants:small_bladder",
-        "funnyenchants:ununbreaking",
-        "funnyenchants:explosive_flint"
+        "funpack:neptune",
+        "funpack:heavy_boots",
+        "funpack:small_bladder",
+        "funpack:ununbreaking",
+        "funpack:explosive_flint"
     ]
 }

@@ -1,0 +1,9 @@
+{
+  "description": {"translate": "entity.minecraft.ender_dragon"},
+  "range": 65536,
+  "sound_event": {
+    "sound_id": "block.note_block.imitate.ender_dragon",
+    "range": 65536
+  },
+  "use_duration": 2.0
+}

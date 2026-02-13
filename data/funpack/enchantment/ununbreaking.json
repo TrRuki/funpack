@@ -1,5 +1,5 @@
 {
-    "description": {"translate": "funnyenchants.ununbreaking", "fallback": "UnUnbreaking"},
+    "description": {"translate": "funpack.ununbreaking", "fallback": "UnUnbreaking"},
     "supported_items": "#minecraft:enchantable/durability",
     "weight": 2,
     "max_level": 1,
