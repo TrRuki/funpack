@@ -1,0 +1,74 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    "emerald_block", "lectern", "redstone_block", "enchanted_book", "bread"
+  ],
+  "result": {
+    "id": "villager_spawn_egg",
+    "components": {
+      "entity_data": {
+        "id": "villager",
+        "Offers": {"Recipes": [
+          {
+            "buy": {"id": "water_bucket"},
+            "buyB": {"id": "book"},
+            "sell": {"id": "enchanted_book", "components": {"stored_enchantments": {
+              "funpack:neptune": 1
+            }}},
+            "maxUses": 4,
+            "priceMultiplier": 0.05,
+            "uses": 0
+          },
+          {
+            "buy": {"id": "anvil", "count": 3},
+            "buyB": {"id": "book"},
+            "sell": {"id": "enchanted_book", "components": {"stored_enchantments": {
+              "funpack:heavy_boots": 1
+            }}},
+            "maxUses": 4,
+            "priceMultiplier": 0.05,
+            "uses": 0
+          },
+          {
+            "buy": {"id": "coarse_dirt", "count": 64},
+            "buyB": {"id": "enchanted_book", "components": {"stored_enchantments": {
+              "unbreaking": 1
+            }}},
+            "sell": {"id": "enchanted_book", "components": {"stored_enchantments": {
+              "funpack:ununbreaking": 1
+            }}},
+            "maxUses": 4,
+            "priceMultiplier": 0.05,
+            "uses": 0
+          },
+          {
+            "buy": {"id": "honey_bottle", "count": 8},
+            "buyB": {"id": "book"},
+            "sell": {"id": "enchanted_book", "components": {"stored_enchantments": {
+              "funpack:small_bladder": 1
+            }}},
+            "maxUses": 4,
+            "priceMultiplier": 0.05,
+            "uses": 0
+          },
+          {
+            "buy": {"id": "tnt", "count": 16},
+            "buyB": {"id": "book"},
+            "sell": {"id": "enchanted_book", "components": {"stored_enchantments": {
+              "funpack:explosive_flint": 1
+            }}}
+          }
+        ]},
+        "VillagerData": {
+          "profession": "librarian",
+          "level": 42,
+          "type": "swamp"
+        },
+        "CustomName": {"text": "Cursed villager", "color": "red"},
+        "CustomNameVisible": true,
+        "Tags": ["funpack.cursed_villager"]
+      },
+      "item_name": {"text": "Cursed Villager Spawn Egg", "italic": false, "color": "red"}
+    }
+  }
+}

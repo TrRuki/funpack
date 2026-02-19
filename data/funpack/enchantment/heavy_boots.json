@@ -41,7 +41,7 @@
                 "predicate": {
                     "movement": {
                         "fall_distance": {
-                            "min": 6
+                            "min": 5
                         }
                     }
                 }
@@ -50,8 +50,8 @@
         }],
         "attributes": [{
             "attribute": "gravity",
-            "operation": "add_value",
-            "amount": 0.04,
+            "operation": "add_multiplied_total",
+            "amount": 0.5,
             "id": "minecraft:heavy_boots_feet"
         }]
     }

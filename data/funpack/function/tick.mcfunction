@@ -1,0 +1,1 @@
+execute as @e[type=villager, tag=funpack.cursed_villager] at @s run particle enchant ~ ~1 ~ 0.2 0.5 0.2 0 2
