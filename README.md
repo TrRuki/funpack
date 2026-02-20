@@ -35,4 +35,5 @@ Supported versions: 1.21.10-1.21.11
 2. Open it's folder (in minecraft/saves)
 3. Open it's datapack folder (worldname/datapacks)
 4. Copy the ZIP archive of the datapack there ([click here to download the latest version](https://github.com/TrRuki/funpack/releases/download/v1.1.0/Funpack-1.1.0.zip))
-5. You need to rejoin the world if it is loaded during this process 
+6. You may need to write this command `/datapack enable "file/Funpack.zip"`
+5. You need to rejoin the world
