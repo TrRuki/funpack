@@ -2,6 +2,8 @@
 
 This is a datapack for minecraft which adds some funny features
 
+Supported versions: 1.21.10-1.21.11
+
 ### Enchantments
 
 | Name | Feature | Supported Items | Source |
