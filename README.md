@@ -27,3 +27,12 @@ Supported versions: 1.21.10-1.21.11
 | Bedrock | just a bedrock | Made in a blast furnace from a netherite block (takes 10min) |
 | Skeleton skull | just a skeleton skull | Made from any skull/head in a furnace except skeleton skull |
 | Bone block | just a bone block (like ashes) | Made from a skeleton skull in a blast furnace |
+
+
+## Installing the datapack
+
+1. Choose a world where you would like to install it
+2. Open it's folder (in minecraft/saves)
+3. Open it's datapack folder (worldname/datapacks)
+4. Copy the ZIP archive of the datapack there ([click here to download the latest version](https://github.com/TrRuki/funpack/releases/download/v1.1.0/Funpack-1.1.0.zip))
+5. You need to rejoin the world if it is loaded during this process 
