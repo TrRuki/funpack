@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "player_controller": {
+      "trigger": "using_item",
+      "conditions": {
+        "item": {
+          "items": "paper",
+          "predicates": {
+            "custom_data": {
+              "funpack.player_controller": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "funpack:player_controller"
+  }
+}

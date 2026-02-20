@@ -16,6 +16,7 @@ This is a datapack for minecraft which adds some funny features
 
 | Name | Description | Source |
 |------|---------|--------|
+| Player Controller | When you hold it, your nearest player (up to 20 blocks away) will be teleported constantly to the place where you look (distance 8), very fun until your friends gets one too.. | ![player controller recipe](https://github.com/TrRuki/funpack/blob/main/assets/player_controller_recipe.png?raw=true) |
 | Dragon horn | A horn that makes the dragon sound | Crafts from `Goat horn`, `Dragon head`, `Dragon breath` |
 | Unstable TNT | TNT that autoignites if broken in survival | Crafts from a `TNT` and a `Fire charge` |
 | Cursed villager spawn egg | Spawn a cursed villager who sells all the curses from this datapack | Crafts from `Lectern`, `Emerald block`, `Redstone block`, `Bread`, `Any enchanted book` |
