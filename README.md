@@ -12,10 +12,15 @@ This is a datapack for minecraft which adds some funny features
 | Explosive flint | Self-explanatory. | Flint and steel | Cursed villager |
 | UnUnbreaking | Increases damage the item takes by 10 times | Anything with durability | Cursed villager |
 
-### Items
+### Recipes
 
 | Name | Description | Source |
 |------|---------|--------|
 | Dragon horn | A horn that makes the dragon sound | Crafts from `Goat horn`, `Dragon head`, `Dragon breath` |
 | Unstable TNT | TNT that autoignites if broken in survival | Crafts from a `TNT` and a `Fire charge` |
 | Cursed villager spawn egg | Spawn a cursed villager who sells all the curses from this datapack | Crafts from `Lectern`, `Emerald block`, `Redstone block`, `Bread`, `Any enchanted book` |
+| Activated coal | Removes all the negative effects, but keeps the positive ones | Crafts from `8 Redstone blocks` and a `Charcoal` |
+| Overcooked baguette | Gives very half a hunger point, nausea and blindness for 20s | Cooked in a furnace from a bread |
+| Bedrock | just a bedrock | Made in a blast furnace from a netherite block (takes 10min) |
+| Skeleton skull | just a skeleton skull | Made from any skull/head in a furnace except skeleton skull |
+| Bone block | just a bone block (like ashes) | Made from a skeleton skull in a blast furnace |

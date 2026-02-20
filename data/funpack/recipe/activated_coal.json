@@ -1,0 +1,38 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": ["redstone_block", "redstone_block", "redstone_block", "redstone_block", "redstone_block", "redstone_block", "redstone_block", "redstone_block", "charcoal"],
+  "result": {
+    "id": "charcoal",
+    "components": {
+      "consumable": {
+        "consume_seconds": 2,
+        "animation": "eat",
+        "on_consume_effects": [{
+          "type": "remove_effects",
+          "effects": [
+            "bad_omen",
+            "blindness",
+            "darkness",
+            "hunger",
+            "infested",
+            "levitation",
+            "mining_fatigue",
+            "nausea",
+            "oozing",
+            "poison",
+            "raid_omen",
+            "slowness",
+            "unluck",
+            "weakness",
+            "weaving",
+            "wind_charged",
+            "wither"
+          ]
+        }]
+      },
+      "item_name": {"text": "Activated coal", "italic": false},
+      "max_stack_size": 4,
+      "enchantment_glint_override": true
+    }
+  }
+}

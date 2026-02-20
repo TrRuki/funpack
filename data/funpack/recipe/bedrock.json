@@ -1,0 +1,6 @@
+{
+  "type": "blasting",
+  "ingredient": "netherite_block",
+  "result": "bedrock",
+  "cookingtime": 72000
+}

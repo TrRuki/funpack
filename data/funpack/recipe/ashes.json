@@ -1,0 +1,8 @@
+{
+  "type": "blasting",
+  "ingredient": "skeleton_skull",
+  "result": {
+    "id": "bone_block"
+  },
+  "category": "misc"
+}

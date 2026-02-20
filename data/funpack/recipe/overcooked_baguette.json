@@ -1,0 +1,29 @@
+{
+  "type": "smelting",
+  "ingredient": "bread",
+  "result": {
+    "id": "charcoal",
+    "components": {
+      "item_name": "Overcooked baguette",
+      "food": {
+        "nutrition": 1,
+        "saturation": 1
+      },
+      "consumable": {
+        "animation": "eat",
+        "consume_seconds": 2,
+        "on_consume_effects": [{
+          "type": "minecraft:apply_effects",
+          "effects": [{
+            "id": "nausea",
+            "duration": 400
+          },{
+            "id": "blindness",
+            "duration": 400
+          }]
+        }]
+      }
+    }
+  },
+  "category": "food"
+}

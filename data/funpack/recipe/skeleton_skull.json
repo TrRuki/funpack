@@ -1,0 +1,8 @@
+{
+  "type": "smelting",
+  "ingredient": "#funpack:skulls_without_skeleton",
+  "result": {
+    "id": "skeleton_skull"
+  },
+  "category": "misc"
+}
